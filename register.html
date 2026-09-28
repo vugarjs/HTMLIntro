@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./files/logo.png"> <!-- here logo  -->
+    <title>Register page</title>
+</head>
+
+<body>
+    <a href="index.html" target="_blank">Back to main page</a> <br> <br><!-- here back to index page  -->
+
+    <form action="https://httpbin.org/post&quot" method="post">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender-male" name="gender" value="Male">
+        <label for="gender-male">Male</label><br>
+        <input type="radio" id="gender-female" name="gender" value="Female">
+        <label for="gender-female">Female</label><br>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label><br>
+        <input type="submit" value="Register"> <br> <br>
+    </form>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th colspan="2">User</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>user1</td>
+                    <td>user1@example.com</td>
+                    <td>pass1</td>
+                </tr>
+                <tr>
+                    <td>user2</td>
+                    <td>user2@example.com</td>
+                    <td>pass2</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+
+</html>
